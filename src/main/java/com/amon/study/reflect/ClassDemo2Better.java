@@ -17,8 +17,8 @@ public class ClassDemo2Better {
 
         // 动态加载类，在运行时加载
         Class c = Class.forName("com.amon.study.reflect."+input);
-        OfficeAble word = (OfficeAble) c.newInstance();
-        word.start();
+        OfficeAble officeAble = (OfficeAble) c.newInstance();
+        officeAble.start();
 
     }
 
