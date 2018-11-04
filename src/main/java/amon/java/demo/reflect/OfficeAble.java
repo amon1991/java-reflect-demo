@@ -1,4 +1,4 @@
-package com.amon.study.reflect;
+package amon.java.demo.reflect;
 
 /**
  * yaming.chen@siemens.com

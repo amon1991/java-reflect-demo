@@ -1,4 +1,4 @@
-package com.amon.study.reflect;
+package amon.java.demo.reflect;
 
 import java.lang.reflect.Method;
 

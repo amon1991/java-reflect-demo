@@ -1,4 +1,4 @@
-package com.amon.study.reflect;
+package amon.java.demo.reflect;
 
 /**
  * yaming.chen@siemens.com
@@ -23,7 +23,7 @@ public class ClassDemo1 {
         // 第三种方式
         Class c3 = null;
         try {
-            c3 = Class.forName("com.amon.study.reflect.Foo");
+            c3 = Class.forName("amon.java.demo.reflect.Foo");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
